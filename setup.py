@@ -14,11 +14,11 @@ import sys
 from setuptools import Command, find_packages, setup  # type: ignore
 
 # Package meta-data.
-NAME = "pymyq"
+NAME = "pymyq2"
 DESCRIPTION = "Python package for controlling MyQ-Enabled Garage Door"
-URL = "https://github.com/arraylabs/pymyq"
-EMAIL = "chris@arraylabs.com"
-AUTHOR = "Chris Campbell"
+URL = "https://github.com/overallcoma/pymq2"
+EMAIL = "overallcoma@gmail.com"
+AUTHOR = "Steven Loftus"
 REQUIRES_PYTHON = ">=3.8"
 VERSION = None
 
