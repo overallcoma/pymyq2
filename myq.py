@@ -3,7 +3,7 @@ import requests
 # Dated: 7/3/2019
 # Rev: 0.1
 # Tons of help from this
-# https://github.com/arraylabs/pymyq/blob/master/pymyq
+# https://github.com/overallcoma/pymyq2/blob/master/pymyq2
 # This is essentially a dumbed down version of the pymyq2 library so that I could understand it and to
 # remove ASYNC for use with QT
 
