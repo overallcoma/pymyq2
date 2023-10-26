@@ -19,7 +19,7 @@ pip install pymyq2
 
 ## Usage
 
-`pymyq` starts within an [aiohttp](https://aiohttp.readthedocs.io/en/stable/)
+`pymyq2` starts within an [aiohttp](https://aiohttp.readthedocs.io/en/stable/)
 `ClientSession`:
 
 ```python
@@ -44,13 +44,13 @@ import asyncio
 
 from aiohttp import ClientSession
 
-import pymyq
+import pymyq2
 
 
 async def main() -> None:
     """Create the aiohttp session and run."""
     async with ClientSession() as websession:
-      myq = await pymyq.login('<EMAIL>', '<PASSWORD>', websession)
+      myq = await pymyq2.login('<EMAIL>', '<PASSWORD>', websession)
 
       # Return only cover devices:
       devices = myq.covers

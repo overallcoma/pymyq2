@@ -1,6 +1,6 @@
 .mypy_cache
 Pipfile.lock
-pymyq.egg-info
+pymyq2.egg-info
 .DS_Store
 .idea/
 __pycache__/
