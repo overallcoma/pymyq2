@@ -8,8 +8,8 @@
 
 import io
 import os
-from shutil import rmtree
 import sys
+from shutil import rmtree
 
 from setuptools import Command, find_packages, setup  # type: ignore
 

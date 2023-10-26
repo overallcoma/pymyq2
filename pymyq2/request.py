@@ -1,10 +1,10 @@
 """Handle requests to MyQ."""
 import asyncio
+import logging
+import string
 from datetime import datetime, timedelta
 from json import JSONDecodeError
-import logging
 from random import choices
-import string
 from typing import Optional, Tuple
 
 from aiohttp import ClientResponse, ClientSession
