@@ -16,7 +16,7 @@ from setuptools import Command, find_packages, setup  # type: ignore
 # Package meta-data.
 NAME = "pymyq2"
 DESCRIPTION = "Python package for controlling MyQ-Enabled Garage Door"
-URL = "https://github.com/overallcoma/pymq2"
+URL = "https://github.com/overallcoma/pymyq2"
 EMAIL = "overallcoma@gmail.com"
 AUTHOR = "Steven Loftus"
 REQUIRES_PYTHON = ">=3.8"
@@ -98,12 +98,12 @@ setup(
     # author_email=EMAIL,
     python_requires=REQUIRES_PYTHON,
     url=URL,
-    packages=find_packages(exclude=("tests",)),
+    # packages=find_packages(exclude=("tests",)),
     # If your package is a single module, use this instead of 'packages':
-    # py_modules=['mypackage'],
-    # entry_points={
-    #     'console_scripts': ['mycli=mymodule:cli'],
-    # },
+    py_modules=['pymq2'],
+    entry_points={
+        'console_scripts': ['mycli=pymq2:cli'],
+    },
     install_requires=REQUIRED,
     include_package_data=True,
     license="MIT",
